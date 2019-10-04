@@ -1,8 +1,8 @@
-/*This css is to style the div box*/
+/*This CSS is to style the div box*/
 #name {
-    width: 185px;
-    height:70px;
-    background-color: rgb(183, 0, 255);
+    width: 215px;
+    height:130px;
+    background-color:cadetblue;
     position: absolute;    
     top: 0px;
     left: 300px;
@@ -10,14 +10,47 @@
 
 }
 
-/* This css is to style the text inside of the div box*/
+/* This CSS is to style the text inside of the div box*/
 h1.box {
     border: 3px;
     border-style: solid;
-    border-color: rgb(183, 0, 255);
+    border-color: cadetblue;
     padding: 3px;
     color: white;
-    font-family: fantasy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* We want 3 more divs, each styled the same way for the 3 pages: About, Portfolio, Contact */
+/* This CSS is to style the div that will contain the 3 links: About, Portfolio, Contact*/
+#navpage {
+    width: 235px; 
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    right: 600px;
+}
+/* This CSS is to style the links in the div ^ */
+.pages {
+    display:inline;
+    margin-left: 10px;
+    color:rgb(84, 111, 121);
+    font-size:20px;
+}
+
+
+#vertline2 {
+    border-left: 3px solid grey; 
+    height: 50px; 
+    position:absolute; 
+    right:672px; 
+    top: 87px;
+}
+
+#vertline3 {
+    border-left: 3px solid grey; 
+    height: 50px; 
+    position:absolute; 
+    right:763px;
+    top: 87px;
+}
+
+
