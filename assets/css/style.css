@@ -1,0 +1,23 @@
+/*This css is to style the div box*/
+#name {
+    width: 185px;
+    height:70px;
+    background-color: rgb(183, 0, 255);
+    position: absolute;    
+    top: 0px;
+    left: 300px;
+
+
+}
+
+/* This css is to style the text inside of the div box*/
+h1.box {
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(183, 0, 255);
+    padding: 3px;
+    color: white;
+    font-family: fantasy;
+}
+
+/* We want 3 more divs, each styled the same way for the 3 pages: About, Portfolio, Contact */
