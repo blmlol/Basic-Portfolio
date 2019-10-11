@@ -1,65 +1,65 @@
+
+
 /*This CSS is to style the div name box*/
 #name {
-    width: 215px;
-    height:130px;
     background-color:cadetblue;
-    position: absolute;    
-    top: 0px;
-    left: 200px;
-
-
+    width: 25%;
+    margin-bottom: 5px;
+    margin-left: 15.5%;
+    height: 80px;
+    text-align: center;
+    
 }
 
-/* This CSS is to style the text inside of the div box*/
-h1.box {
-    border: 3px;
-    border-style: solid;
-    border-color: cadetblue;
-    padding: 3px;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-/* This CSS is to style the div that will contain the 3 links: About, Portfolio, Contact*/
-#navpage {
-    width: 235px; 
-    height: 100px;
-    position: absolute;
-    top: 100px;
-    right: 300px;
-}
-/* This CSS is to style the links in the div ^ */
-.pages {
-    display:inline;
-    margin-left: 10px;
-    color:rgb(84, 111, 121);
-    font-size:20px;
-}
-
-
-#vertline2 {
-    border-left: 3px solid grey; 
-    height: 50px; 
-    position:absolute; 
-    right:372px; 
-    top: 87px;
-}
-
-#vertline3 {
-    border-left: 3px solid grey; 
-    height: 50px; 
-    position:absolute; 
-    right:463px;
-    top: 87px;
-}
 /* This will style the top border box */
 #topsection {
     border: 5px solid rgb(60, 83, 83);
     padding: 20px;
-    height: 90px;
-
+    clear: both;
+    
 
 }
+
+#topcontactsection {
+    padding: 20px;
+    clear: both;
+}
+
+/* This CSS is to style the text inside of the div box*/
+h1.box {
+    
+    border: 3px;
+    border-style: solid;
+    border-color: cadetblue;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display:inline-block;
+    font-size: 40px;
+    line-height: 24px;
+}
+
+/* This CSS is to style the div that will contain the 3 links: About, Portfolio, Contact*/
+#navpage {
+    float: right;
+    width: 35%; 
+    height: 50px;
+       
+}
+/* This CSS is to style the links in the div ^ */
+.pages {
+    color:rgb(84, 111, 121);
+    font-size:20px;
+    float: left;
+    
+}
+
+
+#vertline2, #vertline3 {
+    border-left: 3px solid grey; 
+    height: 25px; 
+    float: left;
+}
+
 
 /* This will style the bottom border box */
 #botsection {
@@ -74,10 +74,10 @@ h1.box {
 #info {
     border: 1px solid rgb(53, 17, 17);
     padding: 10px;
-    height: 400px;
-    width: 780px;
-    position:absolute;
-    right: 280px;
+    height: 95%;
+    width: 65%;
+    margin-left: 16%;
+    
 }
 
 img {
@@ -88,5 +88,80 @@ img {
 }
 
 p {
-    font-size: 20px;
+    font-size: 19.5px;
+}
+
+.botcontactsection {
+    background-color: antiquewhite;
+    border: 5px solid antiquewhite;
+    padding: 10px;
+    height:425px;
+}
+.botcontact {
+    border: 1px solid rgb(53, 17, 17);
+    padding: 10px;
+    height: 100%;
+    width: 65%;
+    margin-left: 16%;
+    background-color: rgb(245, 245, 135);
+}
+
+
+#contact {
+    color: purple;
+    margin-left: 10px;
+}
+
+#namecontact {
+    margin-left: 10px;
+    color: purple;
+    
+}
+
+.formname {
+    margin-left: 10px;
+    
+}
+
+#nameemail {
+    margin-left: 10px;
+    color: purple;
+}
+
+#formemail {
+    margin-left: 10px;
+   
+}
+
+#namemessage {
+    margin-left: 10px;
+    color: purple;
+}
+
+#formmessage {
+    margin-left: 10px;
+    
+}
+
+textarea {
+    resize: none;
+}
+
+.botportfoliosection {
+    background-color: aliceblue;
+    border: 5px solid lightblue;
+    height: 500px;
+}
+
+#port {
+    display :inline-block;
+    margin: 
+}
+
+.botportfolio {
+    border: 2px solid lightblue;
+    height: 100%;
+    width: 75%;
+    margin-left: 16.5%;
+    
 }
