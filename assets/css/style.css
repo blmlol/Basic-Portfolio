@@ -40,7 +40,9 @@ h1.box {
 
 /* This CSS is to style the div that will contain the 3 links: About, Portfolio, Contact*/
 #navpage {
-    float: right;
+    position:fixed;             
+    right: 0;
+    top: 95px;
     width: 35%; 
     height: 50px;
        
@@ -154,8 +156,9 @@ textarea {
 }
 
 #port {
-    display :inline-block;
-    margin: 
+    display: inline-block;
+    padding: 20px;
+    
 }
 
 .botportfolio {
@@ -164,4 +167,9 @@ textarea {
     width: 75%;
     margin-left: 16.5%;
     
+}
+
+button {
+    margin-left: 1.25%;
+    margin-top: 1%;
 }
